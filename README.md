@@ -22,6 +22,7 @@ Production-style AI underwriting assistant that analyzes borrower loan documents
 
 ## Workflow Architecture
 User Upload → PDF Parsing → Context Extraction → Gemini LLM → Prompt Pipeline → Underwriting Summary → Risk Detection → Q&A
+![Archi](images/architecture_diagram.png)
 
 ## Live Demo
 https://ai-loan-document-assistant.streamlit.app
@@ -29,7 +30,6 @@ https://ai-loan-document-assistant.streamlit.app
 ## Screenshots
 ### Main Interface and Loan Summary Output
 ![Main Interface](images/loan_interface.png)
-![Main Interface](images/architecture_diagram.png)
 ![Main Interface and Loan Summary](images/screenshot1.png)
 
 ## Future Improvements
