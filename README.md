@@ -1,6 +1,5 @@
 # AI Loan Document Assistant
-
-AI-powered loan underwriting assistant that analyzes borrower PDF documents using LLM workflows and generates structured underwriting insights.
+Production-style AI underwriting assistant that analyzes borrower loan documents using LLM workflows to generate structured financial summaries, identify missing information, and assist in risk analysis.
 
 ## Features
 - Upload and analyze borrower loan documents
@@ -21,15 +20,15 @@ AI-powered loan underwriting assistant that analyzes borrower PDF documents usin
 - GitHub
 - Streamlit Cloud
 
-## Architecture
-User Upload → PDF Parsing → Context Extraction → LLM Prompt Pipeline → Underwriting Summary → Risk Analysis → Q&A
+## Workflow Architecture
+User Upload → PDF Parsing → Context Extraction → Gemini LLM → Prompt Pipeline → Underwriting Summary → Risk Detection → Q&A
 
 ## Live Demo
 https://ai-loan-document-assistant.streamlit.app
 
 ## Screenshots
 ### Main Interface and Loan Summary Output
-![Main Interface and Loan Summary](images/loan.png)
+![Main Interface and Loan Summary](images/screenshot1.png)
 
 ## Future Improvements
 - Vector database integration
