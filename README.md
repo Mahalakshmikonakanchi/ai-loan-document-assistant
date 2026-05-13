@@ -28,7 +28,8 @@ User Upload → PDF Parsing → Context Extraction → LLM Prompt Pipeline → U
 https://ai-loan-document-assistant.streamlit.app
 
 ## Screenshots
-(Add screenshots here)
+### Main Interface and Loan Summary Output
+![Main Interface and Loan Summary](images/loan.png)
 
 ## Future Improvements
 - Vector database integration
